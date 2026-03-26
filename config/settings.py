@@ -22,7 +22,7 @@ load_dotenv(BASE_DIR / ".env")
 
 SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-b&t99-v&mfml4b7t2(*o-0f5m$1et%und*qw822fhj!=xve&w2")
 DEBUG = os.getenv("DEBUG", "True") == "True"
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1,medbackend-zvhu.onrender.com").split(",")
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1,medbackend-1.onrender.com").split(",")
 
 
 # ─────────────────────────────────────────────
